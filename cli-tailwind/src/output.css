@@ -8,7 +8,10 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-600: oklch(57.7% 0.245 27.325);
+    --color-red-800: oklch(44.4% 0.177 26.899);
     --color-red-900: oklch(39.6% 0.141 25.723);
+    --color-red-950: oklch(25.8% 0.092 26.042);
+    --color-green-950: oklch(26.6% 0.065 152.934);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
@@ -183,11 +186,14 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .text-red-600 {
-    color: var(--color-red-600);
+  .text-green-950 {
+    color: var(--color-green-950);
   }
-  .text-red-900 {
-    color: var(--color-red-900);
+  .text-red-800 {
+    color: var(--color-red-800);
+  }
+  .text-red-950 {
+    color: var(--color-red-950);
   }
   .underline {
     text-decoration-line: underline;
